@@ -47,11 +47,11 @@ class Main extends Component {
                            &nbsp;&nbsp;&nbsp; mDai
                        </div>
                    </div>
-                   <button type='submit' className='btn btn-primary btn-block btn-lg'>STAKE!</button>
+                   <button type='submit' className='btn btn-info btn-block btn-lg'>STAKE!</button>
                </form>
                <button
                 type='submit'
-                className='btn btn-link btn-block btn-sm'
+                className='btn btn-dark btn-block btn-sm'
                 onClick={(event) => {
                     event.preventDefault()
                     this.props.unstakeTokens()
